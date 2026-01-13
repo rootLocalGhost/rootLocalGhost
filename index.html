@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rootLocalGhost | The Polymath</title>
+    <link
+      rel="icon"
+      id="dynamic-favicon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👻</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;700&family=Poppins:wght@300;400;500;700;900&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="noise-overlay"></div>
+    <div id="cursor"></div>
+    <div id="cursor-dot"></div>
+    <canvas id="bg-canvas"></canvas>
+    <main id="main-content">
+      <nav class="main-nav" id="navbar">
+        <a href="#" class="nav-logo hover-trigger" data-cursor="link">
+          root@LocalGhost:~#
+        </a>
+        <div class="nav-links">
+          <a href="#identity" class="nav-link hover-trigger">Identity</a>
+          <a href="#projects" class="nav-link hover-trigger">Source</a>
+          <a href="#library" class="nav-link hover-trigger">Library</a>
+          <a href="#speaking" class="nav-link hover-trigger">Voice</a>
+        </div>
+        <a href="#contact" class="nav-cta nav-link hover-trigger"> Signal </a>
+      </nav>
+      <header class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="system-status reveal-elem">
+              <span class="status-dot"></span>
+              <span class="status-text">SYSTEM ONLINE //</span>
+              <span class="real-name">FORMERLY MD SIAM MIA</span>
+            </div>
+            <div class="hero-title-container">
+              <div class="hero-line root-line" data-text="ROOT">ROOT</div>
+              <div class="hero-line ghost-line" data-text="LOCAL GHOST">
+                LOCAL GHOST
+              </div>
+            </div>
+            <div class="hero-footer">
+              <p class="hero-quote reveal-elem">
+                "I do not want to believe. I want to know. I want to learn"
+              </p>
+              <div class="hero-details reveal-elem">
+                <p>POLYMATH: TECH // PHILOSOPHY // ARTS // POLITICS</p>
+                <p>STATUS: DESIGNING THE INEFFABLE</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image-container reveal-elem">
+            <div class="image-frame">
+              <img
+                id="github-profile-img"
+                src="https://github.com/identicons/rootLocalGhost.png"
+                alt="Profile"
+                class="profile-img"
+              />
+              <div class="scanline"></div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator">SCROLL TO DECRYPT ↓</div>
+      </header>
+      <section id="identity" class="about-section">
+        <div class="grid-container">
+          <div class="sticky-column">
+            <span class="section-label">01 // THE ARCHITECTURE</span>
+            <div class="separator-line"></div>
+          </div>
+          <div class="content-column">
+            <h2 class="section-heading reveal-scroll">
+              A violent intersection of
+              <span class="accent-italic">silicon logic</span> and
+              <span class="accent-italic">human chaos</span>.
+            </h2>
+            <div class="text-grid">
+              <div class="reveal-scroll">
+                <p class="mb-6">
+                  I am not merely a developer. I am a student of the world. My
+                  existence spans the gap between the rigid exactitude of
+                  Artificial Intelligence and the fluid ambiguity of Philosophy.
+                </p>
+                <p class="mb-6">
+                  I code complex systems, but I also debate theology. I train
+                  neural networks, but I also write poetry about love and the
+                  void. I build desktop environments, but I also sing when the
+                  code compiles.
+                </p>
+              </div>
+              <div class="reveal-scroll">
+                <h3 class="font-mono text-accent mb-4 text-sm">
+                  > THE COMPOSITION
+                </h3>
+                <ul class="identity-list">
+                  <li>
+                    <span class="list-bullet">::</span>
+                    <strong>TECHNOLOGIST</strong> [AI, Full Stack, Science]
+                  </li>
+                  <li>
+                    <span class="list-bullet">::</span>
+                    <strong>THINKER</strong> [Philosophy, Politics, History,
+                    Religion]
+                  </li>
+                  <li>
+                    <span class="list-bullet">::</span>
+                    <strong>ARTIST</strong> [Poetry, Writer, Casual Singer]
+                  </li>
+                  <li>
+                    <span class="list-bullet">::</span>
+                    <strong>VOICE</strong> [Public Speaking, Social Commentary,
+                    Debate]
+                  </li>
+                </ul>
+                <p class="mt-6 text-sm text-gray-500 font-mono">
+                  // Open to collaborative inquiries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects-section">
+        <div class="section-header">
+          <div>
+            <span class="section-label">02 // OPEN SOURCE</span>
+            <h2 class="section-title">Source Code</h2>
+          </div>
+          <div class="header-line"></div>
+        </div>
+        <div class="projects-list">
+          <div class="project-item reveal-scroll">
+            <div class="project-header">
+              <h3 class="project-name">ViveStream Revived</h3>
+              <a
+                href="https://github.com/rootLocalGhost/ViveStream-Revived"
+                target="_blank"
+                class="repo-link hover-trigger"
+              >
+                github.com/rootLocalGhost/ViveStream-Revived
+                <i data-lucide="arrow-up-right" class="icon-sm"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              A powerful all-in-one desktop client for YouTube. Bypass
+              restrictions, manage local libraries, clip segments, and edit
+              metadata with surgical precision.
+            </p>
+            <div class="project-meta">
+              <div class="language-bar" id="lang-ViveStream-Revived">
+                <span class="loading-text">Fetching languages...</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-item reveal-scroll">
+            <div class="project-header">
+              <h3 class="project-name">ArtTic-LAB</h3>
+              <a
+                href="https://github.com/rootLocalGhost/ArtTic-LAB"
+                target="_blank"
+                class="repo-link hover-trigger"
+              >
+                github.com/rootLocalGhost/ArtTic-LAB
+                <i data-lucide="arrow-up-right" class="icon-sm"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              Optimized AI image generation suite for Intel ARC GPUs. A bridge
+              between hardware potential and artistic intent. Supports Stable
+              Diffusion & FLUX 1.dev.
+            </p>
+            <div class="project-meta">
+              <div class="language-bar" id="lang-ArtTic-LAB">
+                <span class="loading-text">Fetching languages...</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-item reveal-scroll">
+            <div class="project-header">
+              <h3 class="project-name">PixZen</h3>
+              <a
+                href="https://github.com/rootLocalGhost/PixZen"
+                target="_blank"
+                class="repo-link hover-trigger"
+              >
+                github.com/rootLocalGhost/PixZen
+                <i data-lucide="arrow-up-right" class="icon-sm"></i>
+              </a>
+            </div>
+            <p class="project-desc">
+              Cross-platform CLI for AI-driven media restoration. High-quality
+              upscaling and intelligent face restoration hidden behind a simple
+              command.
+            </p>
+            <div class="project-meta">
+              <div class="language-bar" id="lang-PixZen">
+                <span class="loading-text">Fetching languages...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="library" class="library-section">
+        <div class="grid-container">
+          <div class="sticky-column">
+            <span class="section-label">03 // THE LIBRARY</span>
+            <div class="separator-line"></div>
+          </div>
+          <div class="content-column">
+            <div class="library-intro mb-12">
+              <h2 class="section-heading mb-4">Input & Output</h2>
+              <p class="text-gray-400">
+                The mind consumes History, Politics, and Theology. The soul
+                excretes Poetry and Music. Here lies the archive of my thoughts
+                and the fuel for my debates.
+              </p>
+            </div>
+            <div class="library-category mb-16">
+              <h3 class="category-title">:: WRITINGS & PHILOSOPHY</h3>
+              <div
+                class="ai-note mb-6 text-sm text-accent font-mono border border-accent p-2 inline-block"
+              >
+                NOTE: English translations are AI generated. Recommended to read
+                in Bangla.
+              </div>
+              <div id="writings-grid" class="library-grid"></div>
+            </div>
+            <div class="library-category">
+              <h3 class="category-title">:: THE SHELF (READING LIST)</h3>
+              <div class="book-list">
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">01</span>
+                  <span class="book-title">1984</span>
+                  <span class="book-author">GEORGE ORWELL</span>
+                  <span class="book-tag">DYSTOPIA</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">02</span>
+                  <span class="book-title">48 Laws of Power</span>
+                  <span class="book-author">ROBERT GREENE</span>
+                  <span class="book-tag">POWER</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">03</span>
+                  <span class="book-title">Discovering The Leader In You</span>
+                  <span class="book-author">DALE CARNEGIE</span>
+                  <span class="book-tag">LEADERSHIP</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">04</span>
+                  <span class="book-title">Pride and Prejudice</span>
+                  <span class="book-author">JANE AUSTEN</span>
+                  <span class="book-tag">CLASSIC</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">05</span>
+                  <span class="book-title">Sapiens</span>
+                  <span class="book-author">YUVAL NOAH HARARI</span>
+                  <span class="book-tag">HISTORY</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">06</span>
+                  <span class="book-title">Sophie's World</span>
+                  <span class="book-author">JOSTEIN GAARDER</span>
+                  <span class="book-tag">PHILOSOPHY</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">07</span>
+                  <span class="book-title">Steal Like an Artist</span>
+                  <span class="book-author">AUSTIN KLEON</span>
+                  <span class="book-tag">CREATIVITY</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">08</span>
+                  <span class="book-title">The Art of Negotiation</span>
+                  <span class="book-author">MICHAEL WHEELER</span>
+                  <span class="book-tag">BUSINESS</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">09</span>
+                  <span class="book-title">The Art of Seduction</span>
+                  <span class="book-author">ROBERT GREENE</span>
+                  <span class="book-tag">PSYCHOLOGY</span>
+                </div>
+                <div class="book-row reveal-scroll">
+                  <span class="book-idx">10</span>
+                  <span class="book-title">The Notebook</span>
+                  <span class="book-author">NICHOLAS SPARKS</span>
+                  <span class="book-tag">ROMANCE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="speaking" class="speaking-section">
+        <span class="section-label block mb-16"
+          >04 // PUBLIC SPEAKING & DEBATE</span
+        >
+        <div class="speaking-list">
+          <div
+            class="speaking-item group hover-trigger cursor-none reveal-scroll"
+          >
+            <div class="speaking-bg"></div>
+            <div class="speaking-content">
+              <div>
+                <h3 class="speaking-title">A Debate On Traditional Beliefs</h3>
+                <p class="speaking-sub">
+                  Keynote: "People Go Blind When They Believe"
+                </p>
+              </div>
+              <div class="speaking-meta">
+                <div class="text-gray-400">BANGLADESH</div>
+                <div class="text-accent">SEP 2025</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="speaking-item group hover-trigger cursor-none reveal-scroll"
+          >
+            <div class="speaking-bg"></div>
+            <div class="speaking-content">
+              <div>
+                <h3 class="speaking-title">Social Justice Systems</h3>
+                <p class="speaking-sub">
+                  Keynote: "They Do It The Easy Way, We Do It The Right Way"
+                </p>
+              </div>
+              <div class="speaking-meta">
+                <div class="text-gray-400">BANGLADESH</div>
+                <div class="text-accent">DEC 2025</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="speaking-item group hover-trigger cursor-none reveal-scroll"
+          >
+            <div class="speaking-bg"></div>
+            <div class="speaking-content">
+              <div>
+                <h3 class="speaking-title">The Illusion of Free Will</h3>
+                <p class="speaking-sub">
+                  Discussion: "Are we merely biological puppets?"
+                </p>
+              </div>
+              <div class="speaking-meta">
+                <div class="text-gray-400">UNIVERSITY</div>
+                <div class="text-accent">JAN 2026</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="speaking-item group hover-trigger cursor-none reveal-scroll"
+          >
+            <div class="speaking-bg"></div>
+            <div class="speaking-content">
+              <div>
+                <h3 class="speaking-title">Capitalism vs Humanity</h3>
+                <p class="speaking-sub">
+                  Debate: "Profit Margins vs Human Needs"
+                </p>
+              </div>
+              <div class="speaking-meta">
+                <div class="text-gray-400">DHAKA</div>
+                <div class="text-accent">FEB 2026</div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="speaking-item group hover-trigger cursor-none reveal-scroll"
+          >
+            <div class="speaking-bg"></div>
+            <div class="speaking-content">
+              <div>
+                <h3 class="speaking-title">The Philosophy of Suicide</h3>
+                <p class="speaking-sub">
+                  Seminar: "Analyzing The Unwritten Autobiography"
+                </p>
+              </div>
+              <div class="speaking-meta">
+                <div class="text-gray-400">OPEN MIC</div>
+                <div class="text-accent">MAR 2026</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact" class="footer">
+        <div class="footer-bg"></div>
+        <div class="footer-top relative z-10">
+          <p class="section-label mb-8">INITIALIZE HANDSHAKE</p>
+          <div
+            class="footer-email-wrapper hover-trigger"
+            onclick="location.href = 'mailto:rootlocalghost@protonmail.com'"
+          >
+            <div
+              class="hero-title-container"
+              style="font-size: clamp(3rem, 8vw, 10rem)"
+            >
+              <div class="hero-line ghost-line" data-text="LOCALGHOST">
+                LOCALGHOST
+              </div>
+              <div class="hero-line ghost-line" data-text="@PROTON">
+                @PROTON
+              </div>
+              <div class="hero-line ghost-line" data-text="MAIL.COM">
+                MAIL.COM
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom relative z-10">
+          <div class="social-links">
+            <a
+              href="https://github.com/rootLocalGhost"
+              target="_blank"
+              class="social-btn hover-trigger group"
+            >
+              <i data-lucide="github" class="social-icon"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/md.siam.mia.man"
+              target="_blank"
+              class="social-btn hover-white hover-trigger group"
+            >
+              <i data-lucide="facebook" class="social-icon"></i>
+            </a>
+            <a
+              href="https://wa.me/8801618086489"
+              target="_blank"
+              class="social-btn hover-accent hover-trigger group"
+            >
+              <i data-lucide="message-circle" class="social-icon"></i>
+            </a>
+            <a
+              href="tel:+8801618086489"
+              class="social-btn hover-white hover-trigger group"
+            >
+              <i data-lucide="phone" class="social-icon"></i>
+            </a>
+          </div>
+          <div class="footer-credits">
+            <p class="credit-main">Designed with absolute precision.</p>
+            <div class="credit-sub">
+              <p>&copy; 2026 rootLocalGhost. All rights reserved.</p>
+              <p class="text-accent">> System.exit(0)</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <div id="writing-modal" class="modal hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content" data-lenis-prevent>
+        <button id="modal-close" class="modal-close hover-trigger">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="modal-header">
+          <span id="modal-date" class="modal-date">DATE</span>
+          <button id="modal-lang-toggle" class="lang-toggle hover-trigger">
+            [ SHOW ORIGINAL ]
+          </button>
+        </div>
+        <h2 id="modal-title" class="modal-title">Title</h2>
+        <div id="modal-body-en" class="modal-body en"></div>
+        <div id="modal-body-bn" class="modal-body bn hidden"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
